@@ -21,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+            <state relative-caret-position="170">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="165">
+              <caret line="165" column="32" lean-forward="true" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" />
       </list>
     </option>
   </component>
@@ -82,7 +82,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585940929045" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585941422754" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -101,8 +101,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenPassword_whenNotContainUpperCase_shouldReturnFalse">
-    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenPassword_whenNotContainNumber_shouldReturnFalse">
+    <configuration name="UserRegistrationTest.givenPassword_whenAtLeastOneNumericNumber_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration.test" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +112,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenPassword_whenAtLeastOneNumericNumber_shouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +150,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistrationTest.givenPassword_whenNotContainNumber_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenPassword_whenNotContainNumber_shouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRegistrationTest.givenPassword_whenNotContainUpperCase_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration.test" />
       <extension name="coverage">
@@ -165,29 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.givenPassword_whenProper_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegistration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenPassword_whenProper_shouldReturnTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_whenNotContainNumber_shouldReturnFalse" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_whenAtLeastOneNumericNumber_shouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenPassword_whenNotContainUpperCase_shouldReturnFalse" />
         <item itemvalue="JUnit.UserRegistrationTest.givenPassword_whenAtLeastOneUpperCase_shouldReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.givenPassword_whenLessThanEightCharacter_shouldReturnFalse" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenPassword_whenProper_shouldReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,17 +202,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585926775197</updated>
-      <workItem from="1585926782718" duration="9183000" />
+      <workItem from="1585926782718" duration="9675000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserRegistrationTest_givenMobileNumber_whenProper_shouldReturnTrue - 2020.04.04 at 00h 17m 59s.xml">
-      <configuration name="UserRegistrationTest.givenMobileNumber_whenProper_shouldReturnTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserRegistrationTest_givenMobileNumber_whenLessThanTenDigit_shouldReturnFalse - 2020.04.04 at 00h 18m 24s.xml">
-      <configuration name="UserRegistrationTest.givenMobileNumber_whenLessThanTenDigit_shouldReturnFalse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserRegistrationTest_givenMobileNumber_whenNoCountryCode_shouldReturnFalse - 2020.04.04 at 00h 18m 43s.xml">
       <configuration name="UserRegistrationTest.givenMobileNumber_whenNoCountryCode_shouldReturnFalse" configurationId="JUnit" />
     </history-entry>
@@ -236,9 +231,15 @@
     <history-entry file="UserRegistrationTest_givenPassword_whenNotContainUpperCase_shouldReturnFalse - 2020.04.04 at 00h 38m 31s.xml">
       <configuration name="UserRegistrationTest.givenPassword_whenNotContainUpperCase_shouldReturnFalse" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserRegistrationTest_givenPassword_whenAtLeastOneNumericNumber_shouldReturnTrue - 2020.04.04 at 00h 45m 00s.xml">
+      <configuration name="UserRegistrationTest.givenPassword_whenAtLeastOneNumericNumber_shouldReturnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRegistrationTest_givenPassword_whenNotContainNumber_shouldReturnFalse - 2020.04.04 at 00h 46m 13s.xml">
+      <configuration name="UserRegistrationTest.givenPassword_whenNotContainNumber_shouldReturnFalse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9183000" />
+    <option name="totallyTimeSpent" value="9675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -281,20 +282,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="165">
+          <caret line="165" column="32" lean-forward="true" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>

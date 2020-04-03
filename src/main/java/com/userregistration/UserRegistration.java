@@ -7,7 +7,7 @@ public class UserRegistration {
     String regPattern = "^[A-Z][a-z]{2,}$";
     String emailPattern = "^([a-z]{2,}[0-9a-z]{1,}([_+-.*$#]{0,1}[a-z0-9]{1,}){0,1}[@]{1}[a-z0-1]{1,}[.]{1}[a-z]{2,4}([.]{0,1}[a-z]{2}){0,1})$";
     String mobNoPattern= "^[0-9]{2}\\s[0-9]{10}$";
-    String passwordPattern="^(?=.*[A-Z])[A-Za-z0-9@#$%&*]{8,}$";  //Rule-2:
+    String passwordPattern="^(?=.*[A-Z])(?=.*[0-9])[A-Za-z0-9@#$%&*]{8,}$";  //Rule-3:
 
     public  boolean validation(String name) {  // First name Last name validation
 

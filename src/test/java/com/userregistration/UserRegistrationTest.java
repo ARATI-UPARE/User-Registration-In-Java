@@ -133,24 +133,37 @@ public class UserRegistrationTest {
     // UC:5
     @Test
     public void givenPassword_whenProper_shouldReturnTrue() {
-        boolean result = userRegObject.validatePassword("@Arati123");
-        Assert.assertTrue(result);
+        boolean password = userRegObject.validatePassword("@Arati123");
+        Assert.assertTrue(password);
     }
     @Test
     public void givenPassword_whenLessThanEightCharacter_shouldReturnFalse() {
-        boolean result = userRegObject.validatePassword("arati");
-        Assert.assertFalse(result);
+        boolean password = userRegObject.validatePassword("arati");
+        Assert.assertFalse(password);
     }
 
     // UC:6
     @Test
     public void givenPassword_whenAtLeastOneUpperCase_shouldReturnTrue() {
-        boolean result = userRegObject.validatePassword("Upare@123");
-        Assert.assertTrue(result);
+        boolean password = userRegObject.validatePassword("Upare@123");
+        Assert.assertTrue(password);
     }
     @Test
     public void givenPassword_whenNotContainUpperCase_shouldReturnFalse() {
-        boolean result =  userRegObject.validatePassword("upare@123");
-        Assert.assertFalse(result);
+        boolean password =  userRegObject.validatePassword("upare@123");
+        Assert.assertFalse(password);
+    }
+
+    // UC:7
+    @Test
+    public void givenPassword_whenAtLeastOneNumericNumber_shouldReturnTrue() {
+        boolean password = userRegObject.validatePassword("Upare@1996");
+        Assert.assertTrue(password);
+    }
+
+    @Test
+    public void givenPassword_whenNotContainNumber_shouldReturnFalse() {
+        boolean password = userRegObject.validatePassword("UpareARATI");
+        Assert.assertFalse(password);
     }
 }
