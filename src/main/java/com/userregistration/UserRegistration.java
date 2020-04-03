@@ -6,6 +6,7 @@ public class UserRegistration {
 
     String regPattern = "^[A-Z][a-z]{2,}$";
     String emailPattern = "^([a-z]{2,}[0-9a-z]{1,}([_+-.*$#]{0,1}[a-z0-9]{1,}){0,1}[@]{1}[a-z0-1]{1,}[.]{1}[a-z]{2,4}([.]{0,1}[a-z]{2}){0,1})$";
+    String mobNoPattern= "^[0-9]{2}\\s[0-9]{10}$";
 
     public  boolean validation(String name) {
 
@@ -15,5 +16,10 @@ public class UserRegistration {
     public boolean emailValidation(String email) {
 
         return Pattern.matches(emailPattern, email);
+    }
+
+    public boolean validateMobNumber(String mobileNumber){
+
+        return Pattern.matches(mobNoPattern,mobileNumber);
     }
 }

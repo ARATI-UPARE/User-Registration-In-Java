@@ -100,4 +100,34 @@ public class UserRegistrationTest {
         boolean emailId = userRegObject.emailValidation("arati@gmail");
         Assert.assertFalse(emailId);
     }
+
+    // UC:4
+    @Test
+    public void givenMobileNumber_whenProper_shouldReturnTrue() {
+        boolean mobNumber = userRegObject.validateMobNumber("91 7676878789");
+        Assert.assertTrue(mobNumber);
+    }
+
+    @Test
+    public void givenMobileNumber_whenLessThanTenDigit_shouldReturnFalse() {
+        boolean mobNumber = userRegObject.validateMobNumber("91 34545676");
+        Assert.assertFalse(mobNumber);
+    }
+
+    @Test
+    public void givenMobileNumber_whenNoCountryCode_shouldReturnFalse() {
+        boolean mobNumber = userRegObject.validateMobNumber("234545678");
+        Assert.assertFalse(mobNumber);
+    }
+
+    @Test
+    public void givenMobileNumber_whenNoSpaceAvailable_shouldReturnFalse() {
+        boolean mobNumber = userRegObject.validateMobNumber("123434567865");
+        Assert.assertFalse(mobNumber);
+    }
+
+    @Test public void givenMobileNumber_whenSpecialCharacterGiven_shouldReturnFalse() {
+        boolean mobNumber = userRegObject.validateMobNumber("54 342345434@3");
+        Assert.assertFalse(mobNumber);
+    }
 }
