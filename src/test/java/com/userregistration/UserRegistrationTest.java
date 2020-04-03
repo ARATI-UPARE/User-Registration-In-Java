@@ -136,10 +136,21 @@ public class UserRegistrationTest {
         boolean result = userRegObject.validatePassword("@Arati123");
         Assert.assertTrue(result);
     }
-
     @Test
     public void givenPassword_whenLessThanEightCharacter_shouldReturnFalse() {
         boolean result = userRegObject.validatePassword("arati");
+        Assert.assertFalse(result);
+    }
+
+    // UC:6
+    @Test
+    public void givenPassword_whenAtLeastOneUpperCase_shouldReturnTrue() {
+        boolean result = userRegObject.validatePassword("Upare@123");
+        Assert.assertTrue(result);
+    }
+    @Test
+    public void givenPassword_whenNotContainUpperCase_shouldReturnFalse() {
+        boolean result =  userRegObject.validatePassword("upare@123");
         Assert.assertFalse(result);
     }
 }
