@@ -160,10 +160,23 @@ public class UserRegistrationTest {
         boolean password = userRegObject.validatePassword("Upare@1996");
         Assert.assertTrue(password);
     }
-
     @Test
     public void givenPassword_whenNotContainNumber_shouldReturnFalse() {
         boolean password = userRegObject.validatePassword("UpareARATI");
         Assert.assertFalse(password);
     }
+
+    //UC:8
+    @Test
+    public void givenPassword_whenExactlyOneSpecialCharacter_shouldReturnTrue() {
+        boolean password = userRegObject.validatePassword("Arati@1996");
+        Assert.assertTrue(password);
+    }
+
+    @Test
+    public void givenPassword_whenNotContainSpecialCharacter_shouldReturnFalse() {
+        boolean password = userRegObject.validatePassword("AratiUpare");
+        Assert.assertFalse(password);
+    }
+
 }
