@@ -6,38 +6,38 @@ import org.junit.Test;
 public class UserRegistrationTest {
 
     UserRegistration userRegObject = new UserRegistration(); // Object
-    // UC1
+    // UC2
     @Test
-    public void givenValidFirstName_shouldReturnTrue() {
-        boolean firstName=userRegObject.validation("Arati");
-        Assert.assertTrue(firstName);
+    public void givenValidLastName_shouldReturnTrue() {
+        boolean lastName=userRegObject.validation("Upare");
+        Assert.assertTrue(lastName);
     }
     @Test
-    public void givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue() {
-        boolean firstName = userRegObject.validation("Pri");
-        Assert.assertTrue(firstName);
-    }
-
-    @Test
-    public void givenInvalidFirstName_shouldReturnFalse() {
-        boolean firstName=userRegObject.validation("Ar");
-        Assert.assertFalse(firstName);
-    }
-    @Test
-    public void givenFirstName_whenAllLowerCaseCharacter_shouldReturnFalse(){
-        boolean firstName = userRegObject.validation("arati");
-        Assert.assertFalse(firstName);
+    public void givenLastName_whenMinimumThreeCharacter_shouldReturnTrue() {
+        boolean lastName = userRegObject.validation("Upa");
+        Assert.assertTrue(lastName);
     }
 
     @Test
-    public void givenFirstName_whenAllUpperCaseCharacter_shouldReturnFalse() {
-        boolean firstName = userRegObject.validation("ARATI");
-        Assert.assertFalse(firstName);
+    public void givenInvalidLastName_shouldReturnFalse() {
+        boolean lastName=userRegObject.validation("U");
+        Assert.assertFalse(lastName);
+    }
+    @Test
+    public void givenLastName_whenAllLowerCaseCharacter_shouldReturnFalse(){
+        boolean lastName = userRegObject.validation("upare");
+        Assert.assertFalse(lastName);
     }
 
     @Test
-    public void givenFirstName_whenContainNumber_shouldReturnFalse() {
-        boolean firstName = userRegObject.validation("Ara452");
-        Assert.assertFalse(firstName);
+    public void givenLastName_whenAllUpperCaseCharacter_shouldReturnFalse() {
+        boolean lastName = userRegObject.validation("UPARE");
+        Assert.assertFalse(lastName);
+    }
+
+    @Test
+    public void givenLastName_whenContainNumber_shouldReturnFalse() {
+        boolean lastName = userRegObject.validation("Upa452");
+        Assert.assertFalse(lastName);
     }
 }
