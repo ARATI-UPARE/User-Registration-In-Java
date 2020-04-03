@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a623c875-255b-41f1-8c92-4f2f159dbcee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -33,8 +33,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" />
       </list>
     </option>
   </component>
@@ -79,7 +82,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585936887784" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585938943635" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -98,8 +101,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest">
-    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.givenEmailId_whenNotContainComPart_shouldReturnFalse">
+    <configuration name="UserRegistrationTest.givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration.test" />
       <extension name="coverage">
         <pattern>
@@ -109,28 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegistration.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue" />
+      <option name="METHOD_NAME" value="givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.givenFirstName_whenMinimumThreeCharacter_shouldReturnValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration.test" />
       <extension name="coverage">
         <pattern>
@@ -140,13 +128,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenFirstName_whenMinimumThreeCharacter_shouldReturnValid" />
+      <option name="METHOD_NAME" value="givenEmailId_whenContainSymbol_shouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.givenInvalidFirstName_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.givenEmailId_whenNotContainComPart_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration.test" />
       <extension name="coverage">
         <pattern>
@@ -156,13 +144,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenInvalidFirstName_shouldReturnFalse" />
+      <option name="METHOD_NAME" value="givenEmailId_whenNotContainComPart_shouldReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.givenValidFirstName_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.givenEmailId_whenNotContainGmailPart_shouldReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistration.test" />
       <extension name="coverage">
         <pattern>
@@ -172,7 +160,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="givenValidFirstName_shouldReturnTrue" />
+      <option name="METHOD_NAME" value="givenEmailId_whenNotContainGmailPart_shouldReturnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.givenEmailId_whenProper_shouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistration.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenEmailId_whenProper_shouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenValidFirstName_shouldReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenInvalidFirstName_shouldReturnFalse" />
-        <item itemvalue="JUnit.UserRegistrationTest.givenFirstName_whenMinimumThreeCharacter_shouldReturnValid" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_whenNotContainComPart_shouldReturnFalse" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_whenNotContainGmailPart_shouldReturnFalse" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" />
+        <item itemvalue="JUnit.UserRegistrationTest.givenEmailId_whenProper_shouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -198,44 +202,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585926775197</updated>
-      <workItem from="1585926782718" duration="5225000" />
+      <workItem from="1585926782718" duration="7189000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserRegistrationTest - 2020.04.03 at 21h 26m 51s.xml">
-      <configuration name="UserRegistrationTest" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainSymbol_shouldReturnTrue - 2020.04.03 at 23h 55m 47s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest - 2020.04.03 at 22h 50m 07s.xml">
-      <configuration name="UserRegistrationTest" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainSymbol_shouldReturnTrue - 2020.04.03 at 23h 56m 28s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest_givenInvalidFirstName_shouldReturnFalse - 2020.04.03 at 22h 50m 18s.xml">
-      <configuration name="UserRegistrationTest.givenInvalidFirstName_shouldReturnFalse" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainSymbol_shouldReturnTrue - 2020.04.03 at 23h 59m 01s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest_givenValidFirstName_shouldReturnTrue - 2020.04.03 at 22h 51m 29s.xml">
-      <configuration name="UserRegistrationTest.givenValidFirstName_shouldReturnTrue" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainSymbol_shouldReturnTrue - 2020.04.04 at 00h 00m 16s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest_givenInvalidFirstName_shouldReturnFalse - 2020.04.03 at 23h 00m 57s.xml">
-      <configuration name="UserRegistrationTest.givenInvalidFirstName_shouldReturnFalse" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainSymbol_shouldReturnTrue - 2020.04.04 at 00h 00m 35s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest_givenValidFirstName_shouldReturnTrue - 2020.04.03 at 23h 05m 59s.xml">
-      <configuration name="UserRegistrationTest.givenValidFirstName_shouldReturnTrue" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainSymbol_shouldReturnTrue - 2020.04.04 at 00h 01m 10s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainSymbol_shouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest - 2020.04.03 at 23h 06m 19s.xml">
-      <configuration name="UserRegistrationTest" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse - 2020.04.04 at 00h 01m 27s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest_givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue - 2020.04.03 at 23h 11m 15s.xml">
-      <configuration name="UserRegistrationTest.givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse - 2020.04.04 at 00h 03m 45s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest_givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue - 2020.04.03 at 23h 11m 54s.xml">
-      <configuration name="UserRegistrationTest.givenFirstName_whenMinimumThreeCharacter_shouldReturnTrue" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse - 2020.04.04 at 00h 04m 11s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRegistrationTest - 2020.04.03 at 23h 12m 06s.xml">
-      <configuration name="UserRegistrationTest" configurationId="JUnit" />
+    <history-entry file="UserRegistrationTest_givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse - 2020.04.04 at 00h 05m 21s.xml">
+      <configuration name="UserRegistrationTest.givenEmailId_whenContainLessThanThreeCharacter_shouldReturnFalse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5225000" />
+    <option name="totallyTimeSpent" value="7189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -249,7 +253,7 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.48789713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32843137" />
@@ -257,7 +261,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,15 +284,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="216">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
