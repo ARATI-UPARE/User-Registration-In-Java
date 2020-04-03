@@ -130,4 +130,16 @@ public class UserRegistrationTest {
         boolean mobNumber = userRegObject.validateMobNumber("54 342345434@3");
         Assert.assertFalse(mobNumber);
     }
+    // UC:5
+    @Test
+    public void givenPassword_whenProper_shouldReturnTrue() {
+        boolean result = userRegObject.validatePassword("@Arati123");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenPassword_whenLessThanEightCharacter_shouldReturnFalse() {
+        boolean result = userRegObject.validatePassword("arati");
+        Assert.assertFalse(result);
+    }
 }
