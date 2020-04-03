@@ -3,6 +3,7 @@ package com.userregistration;
 import org.junit.Assert;
 import org.junit.Test;
 
+// Below Test cases validates all the rules for User Registration.
 public class UserRegistrationTest {
 
     UserRegistration userRegObject = new UserRegistration(); // Object
